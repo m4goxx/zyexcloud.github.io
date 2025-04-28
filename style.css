@@ -1,0 +1,121 @@
+[CSS QUE MANDEI ACIMA - Resumido aqui para salvar espaço] /* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #212121;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header .logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #f4b400;
+}
+
+/* Home Section */
+.home-section {
+  padding: 40px;
+  background-color: #2a2a2a;
+  color: #fff;
+  text-align: center;
+}
+
+.home-section .slogan {
+  font-weight: bold;
+  font-size: 22px;
+  color: #f4b400;
+}
+
+/* Planos Section */
+.planos-section {
+  padding: 40px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.planos-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.plano {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+.plano h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.plano p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.plano ul {
+  margin-bottom: 15px;
+}
+
+.plano a {
+  display: block;
+  text-align: center;
+  background-color: #f4b400;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.plano a:hover {
+  background-color: #333;
+}
+
+/* Footer */
+footer {
+  background-color: #212121;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer .discord-icon img {
+  width: 30px;
+}

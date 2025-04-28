@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zyex Cloud - Máquinas Virtuais Gamer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="zyex.png" alt="Zyex Cloud Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="planos.html">Planos</a></li>
+        <li><a href="https://discord.gg/ZgCtFWG7" target="_blank" class="discord-btn">Discord</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="home-section">
+    <h1>Está sem um PC potente para jogar seus jogos favoritos?</h1>
+    <p>Não se preocupe! Com a Zyex Cloud, você tem o poder de uma máquina virtual gamer no seu celular, computador ou qualquer dispositivo com a melhor performance.</p>
+    <p>Com a Zyex Cloud você aluga máquinas virtuais ultra-rápidas e com gráficos incríveis, tudo na palma da sua mão. Sem precisar de um PC caro, você joga direto na nuvem, com velocidade e qualidade que você nunca imaginou!</p>
+    <p class="slogan">Zyex Cloud, o futuro dos jogos na nuvem. Jogue agora, sem limites!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Zyex Cloud - Todos os direitos reservados.</p>
+    <a href="https://discord.gg/ZgCtFWG7" target="_blank" class="discord-icon">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord"/>
+    </a>
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
+
